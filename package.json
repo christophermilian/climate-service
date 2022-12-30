@@ -1,6 +1,6 @@
 {
   "name": "climate-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GraphQL service for storing and surfacing temperature data.",
   "main": "src/index.ts",
   "scripts": {
