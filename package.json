@@ -1,0 +1,23 @@
+{
+  "name": "climate-service",
+  "version": "1.0.0",
+  "description": "GraphQL service for storing and surfacing temperature data.",
+  "main": "src/index.ts",
+  "scripts": {
+    "local": "nodemon src/index"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "typeorm": "^0.3.11",
+    "dotenv": "^16.0.3",
+    "zod": "^3.20.2"
+  }
+}
